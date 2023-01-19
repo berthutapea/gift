@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Tampilan Rekening Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Menambahkan stylesheet untuk Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h2>Hadiah Pernikahan</h2>
+        <p>Bagi yang berkeinginan memberikan kado pernikahan atau tanda kasih, kami juga menyediakan Hadiah Pernikahan
+            pada link di bawah ini.</p>
+        <!-- Tautan untuk menampilkan elemen div rekening-container -->
+        <a href="#rekening-bank" id="rekening">
+            <span>Amplop Digital</span>
+        </a>
+        <!-- Tautan untuk menampilkan elemen div kado-container -->
+        <a href="#kado-container" id="kado">
+            <span>Kirim Kado</span>
+        </a>
+    </div>
+
+    <!-- Container untuk menampilkan elemen img, p, dan input -->
+    <div id="rekening-bank" class="amplop-digital">
+        <!-- Tombol untuk menyembunyikan elemen div -->
+        <div class="close">
+            <button id="close-button"><i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div id="rekening-bank-container">
+
+            <div>
+                <img src="foto/bca.png" alt="Gambar Bank"><br>
+                <p>Bank BCA a.n. Wuri Andini</p>
+                <span id="salin-1">3271123297</span><br><br>
+                <button id="copy1-button"><i class="fas fa-copy"></i> Salin Rekening</button>
+                <!-- <div id="notification-1"></div> -->
+            </div>
+            <div>
+                <img src="foto/bca.png" alt="Gambar Bank"><br>
+                <p>Bank BCA a.n. Malon Situmorang </p>
+                <span id="salin-2">3271123297</span><br><br>
+                <button id="copy2-button"><i class="fas fa-copy"></i> Salin Rekening</button>
+                <!-- <div id="notification-2"></div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Container untuk menampilkan elemen div lainnya -->
+    <div id="kado-container" class="kirim-kado">
+        <div class="close">
+            <button id="close-button"><i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="kado-nikah">
+            <div>
+                <p>Kirim Kado Ke Alamat :</p>
+                <span id="salin-3">Wuri Andini, Jl. Salak 5 No. 126 RT 04 RW 19, Ngringo, Jaten, Karanganyar</span>
+                <button id="copy3-button"><i class="fas fa-copy"></i> Salin Alamat</button>
+                <!-- <div id="notification-3"></div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

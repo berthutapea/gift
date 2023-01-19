@@ -1,0 +1,189 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px -2px rgb(0 0 0 / 50%);
+    align-items: center;
+    background: url(/images/ptn-bg.jpg);
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#rekening {
+    background-color: #353535d8;
+    padding: 12px 24px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    line-height: 1;
+    width: 45%;
+    margin: 0 2.5% 16px 2.5%;
+    text-align: center;
+}
+
+#rekening:hover {
+    background-color: #333335;
+}
+
+#rekening span {
+    font-size: 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+
+#kado {
+    background-color: #353535d8;
+    padding: 12px 24px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    line-height: 1;
+    width: 45%;
+    margin: 0 2.5% 16px 2.5%;
+    text-align: center;
+}
+
+#kado:hover {
+    background-color: #333335;
+}
+
+#kado span {
+    font-size: 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+#rekening-bank {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 9999;
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+
+#close-button {
+    border: none;
+    background-color: #35353500;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    padding: 20px 20px 20px 20px;
+}
+
+#close-button:hover {
+    color: #ffffff;
+}
+
+#rekening-bank-container {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    --widgets-spacing: 20px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+
+#rekening-bank-container img {
+    width: 30%;
+}
+
+#rekening-bank-container p {
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+
+#rekening-bank-container span {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#rekening-bank-container button {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #353535d8;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#rekening-bank-container button:hover {
+    background-color: #333335;
+}
+
+#kado-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 9999;
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#kado-nikah {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+
+#kado-nikah p {
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+
+#kado-nikah span {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#kado-nikah button {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #353535d8;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#kado-nikah button:hover {
+    background-color: #333335;
+}
